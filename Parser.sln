@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30717.126
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser.PL_SiteParser", "Parser.PL_SiteParser\Parser.PL_SiteParser.csproj", "{273643FC-EA27-4D59-8B8D-0884386F8A39}"
 EndProject
@@ -12,6 +12,21 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser.App", "Parser.App\Parser.App.csproj", "{9CA850AC-9114-42F8-8BA6-D454E174365A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser.DAL_XLSFiles", "Parser.DAL_XLSFiles\Parser.DAL_XLSFiles.csproj", "{5B7E4BD8-0E39-4158-87C6-3B33B2B857AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WatInLibrary", "WatInLibrary", "{3D4FA117-70A6-4424-B0E2-DD2C02C3925E}"
+	ProjectSection(SolutionItems) = preProject
+		WatInLibrary\Interop.SHDocVw.dll = WatInLibrary\Interop.SHDocVw.dll
+		WatInLibrary\Microsoft.mshtml.dll = WatInLibrary\Microsoft.mshtml.dll
+		WatInLibrary\WatiN.chm = WatInLibrary\WatiN.chm
+		WatInLibrary\WatiN.chw = WatInLibrary\WatiN.chw
+		WatInLibrary\WatiN.Core.dll = WatInLibrary\WatiN.Core.dll
+		WatInLibrary\WatiN.Core.xml = WatInLibrary\WatiN.Core.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{7B183D6E-B061-4155-BE0D-10E6A439BD26}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\stock-update-template.xls = Documents\stock-update-template.xls
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
